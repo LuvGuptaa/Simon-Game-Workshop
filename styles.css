@@ -1,13 +1,28 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #232323;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  margin:  8%;
+  color: #ffffff;
+}
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangle{
+  height: 40px;
+  width: 0.1vh;
+  border-radius: 12px;
+  margin-top: 30px;
+  background-color: white;
 }
 
 .container {
@@ -27,27 +42,98 @@ body {
 }
 
 .game-over {
-  background-color: red;
+  background-color: #ea4235;
   opacity: 0.8;
 }
 
 .red {
-  background-color: red;
+  background-color: #ea4235;
 }
 
 .green {
-  background-color: green;
+  background-color: #34a853;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #4286f5;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #fabc05;
 }
 
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    text-align: center;
+    background-color: #232323;
+  }
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: auto;
+    color: #ffffff;
+  }
+  
+  .Navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .rectangle{
+    height: 40px;
+    width: 0.1vh;
+    border-radius: 12px;
+    margin-top: 30px;
+    background-color: white;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: #ea4235;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: #ea4235;
+  }
+  
+  .green {
+    background-color: #34a853;
+  }
+  
+  .blue {
+    background-color: #4286f5;
+  }
+  
+  .yellow {
+    background-color: #fabc05;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
 }
