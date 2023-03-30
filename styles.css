@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  8%;
+  margin-top:  10%;
   color: #ffffff;
 }
 
@@ -17,19 +17,19 @@ body {
   flex-direction: row;
 }
 
-.Navbar h2{
-  font-size: 20;
+.Navbar h1{
+  font-size: 30;
   color: white;
   margin-left: 10px;
-  margin-top: 32px;
+  margin-top: 40px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .rectangle{
-  height: 40px;
+  height: 45px;
   width: 0.1vh;
   border-radius: 12px;
-  margin-top: 30px;
+  margin-top: 40px;
   background-color: white;
 }
 
@@ -75,16 +75,17 @@ body {
   background-color: grey;
 }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     text-align: center;
     background-color: #232323;
+    margin: auto;
   }
   
   #level-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
-    margin: auto;
+    margin-top: 100px;
     color: #ffffff;
   }
   
@@ -144,4 +145,4 @@ body {
     box-shadow: 0 0 20px white;
     background-color: grey;
   }
-} */
+}
