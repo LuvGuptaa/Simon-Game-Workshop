@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #232323;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    
+}
+#logo{
+    height: 10vw;
+    width: 50vw;
+}
