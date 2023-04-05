@@ -7,6 +7,8 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
+let startBtn = document.querySelector("#start-btn")
+
 $(document).keypress(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
@@ -14,6 +16,14 @@ $(document).keypress(function() {
     started = true;
   }
 });
+
+startBtn.addEventListener("click", function() {
+  if(!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+})
 
 $(".btn").click(function() {
 
@@ -25,7 +35,6 @@ $(".btn").click(function() {
 
   checkAnswer(userClickedPattern.length-1);
 });
-
 
 function checkAnswer(currentLevel) {
 

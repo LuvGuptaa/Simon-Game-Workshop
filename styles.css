@@ -75,6 +75,18 @@ body {
   background-color: grey;
 }
 
+button {
+  background-color: #222f37;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
 @media screen and (max-width: 480px) {
   body {
     text-align: center;
